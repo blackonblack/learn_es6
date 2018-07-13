@@ -4,7 +4,6 @@ function checkNum(...argArray){
     console.log(argArray)
     console.log(toString.call(argArray))
     argArray.every((v) => typeof v === "number")
-    console.log(result);
 }
 
-const result = checkNum(10,2,"55");
+const result = checkNum(10,2,3,"55");
